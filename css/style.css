@@ -1,0 +1,77 @@
+#navtext{
+    color: #0058A9 !important;
+}
+#navbar{
+    font-size: 13px;
+    color: #0058A9;
+}
+#navbar>li:hover{
+    background-color: #0058A9;
+    color: white !important;
+    border-radius: 5px;
+}
+#navbar>li>a:hover{
+    color: white !important;
+}
+.zoom-in:hover div img
+{
+    transform: scale(1.2);
+}
+.zoom-in img{
+    transition: 0.5s ease;
+}
+.zoom-in div{
+    overflow: hidden;
+}
+.text-justify{
+    text-align: justify;
+}
+/* to know */
+#toknow{
+    background-color: #9E313F;
+    color: white;
+}
+/* to know */
+
+/* video row start */
+.col-sm-6>.card:hover{
+    box-shadow: 0px 0px 15px #9E313F;
+    transition: 0.5s ease;
+    border-radius: 10px !important;
+    
+}
+/* video row end */
+
+/* unique start */
+#uniquebg{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),  /* Top color with 50% opacity */
+        rgba(0, 0, 0, 0.5)   /* Bottom color with 10% opacity */
+      ), 
+      url('../images/asset\ 10.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* unique end */
+
+/* admission row start */
+#admissionbg{
+    background-image: url(../images/asset\ 11.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 7px solid #9E313F;
+}
+#admip{
+    border-left: 5px solid #9E313F;
+}
+/* admission row end*/
+
+/* about page start*/
+#aboutbg{
+    background-image: url(../images/naini_breadcrumb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid lightgray;
+}
+/* about page end */
